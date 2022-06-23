@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;500&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -10,30 +12,44 @@ header{
     background-color: rgb(53, 53, 230);
     color: white;
     padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
+
 }
 header h1{
     text-align: center;
-    padding-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
 header p {
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
 }
 
 main{
     background-color: rgba(214, 214, 214, 0.884);
+    min-height: 450px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
+    border-radius: 0px 0px 10px 10px;
+   
 }
 main h2{
     font-size: 1.6em;
     margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 main a{
     font-size: 1.4em;
     text-decoration: none;
-    
+     font-family: 'Poppins', sans-serif;
+     font-style: normal;
+     font-weight: lighter;
 }
 main a:hover{
     text-decoration:underline ;
