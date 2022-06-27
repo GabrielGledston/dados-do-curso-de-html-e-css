@@ -28,6 +28,20 @@ header p {
     font-weight: normal;
 }
 
+nav{
+  background-color: #000FB2;
+  padding: 8px;
+  
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  background-color: rgba(53, 53, 230, 0.78);
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 10px;
+}
+
 main{
     background-color: rgba(214, 214, 214, 0.884);
     min-height: 450px;
@@ -56,4 +70,9 @@ main a:hover{
 }
 ul{
     margin-left: 70px;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 2px;
 }
