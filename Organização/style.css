@@ -54,20 +54,24 @@ main{
    
 }
 main h2{
-    font-size: 1.6em;
-    margin-left: 50px;
+    font-size: 2em;
+    margin-left: 20px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
-main a{
-    font-size: 1.4em;
-    text-decoration: none;
-     font-family: 'Poppins', sans-serif;
-     font-style: normal;
-     font-weight: lighter;
+
+div{
+    width: 100%;
 }
-main a:hover{
-    text-decoration:underline ;
+
+div.img-center{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    justify-content: center;
+ 
 }
+
 ul{
     margin-left: 70px;
 }
