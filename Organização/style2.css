@@ -8,10 +8,10 @@ body{
 }
 
 header{
-    background-color: rgb(53, 53, 230);
-    color: white;
-    padding: 20px;
-    max-width: 500px;
+       background-image: linear-gradient(to bottom, rgb(53, 53, 230), #000FB2);
+        color: white;
+        padding: 20px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
 }
 header h1{
     margin-left: 30px;
@@ -31,9 +31,13 @@ main a:hover{
     text-decoration: underline;
 }
 .box{
-    background-color: rgba(214, 214, 214, 0.884);
+     background-color: rgba(214, 214, 214, 0.884);
+    min-height: 450px;
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
     padding: 20px;
-    max-width: 500px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
 }
 .voltar{
